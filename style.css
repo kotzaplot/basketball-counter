@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header {
+    text-align: center;
+    align-items: center;
+    padding: 35px;
+    background-image: url(images/backgroundBall.jpg);
+    background-size: cover;
+    opacity: 1;
+    margin-bottom: 0;
+    font-size: 30px;
+    font-family:sans-serif;
+    color: white;
+    position: relative;
+}
+main {
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    background-color: #1B244A;
+    font-size: 40px;
+    display: flex;
+    padding: 20px;
+    background-color: #1B244A;
+}
+#counter {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    height: 750px;
+    align-items: center;
+    border: 10px solid black;
+    border-radius: 20px;
+    flex: auto;
+    background-color: rgb(63, 63, 63);
+
+}
+.points {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.goalsEl {
+    background-color: rgb(134, 87, 0);
+    border: none;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+.goalsEl:hover {
+    color: white;
+    background-color: rgb(172, 112, 0);
+    transform: scale(1.1);
+}
+.title {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+}
+.numbers {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 40px 100px 40px 100px;
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+}
+footer {
+    background-image: url(images/backgroundBall.jpg);
+    height: auto;
+    padding: 56.5px;
+    background-size: cover;
+    background-position: bottom;
+}
+.home, .guest {
+    justify-content: center;
+}
+.buttonReset {
+    color: black;
+    background: url();
+    background-size: cover;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 0;
+    padding: 20px;
+    transition: 0.3s;
+}
+.buttonReset:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
